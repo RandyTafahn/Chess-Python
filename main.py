@@ -11,7 +11,7 @@ class ChessGame:
     def __init__(self):
         # Initialize the chess board and engine
         self.board = chess.Board()
-        self.engine = chess.engine.SimpleEngine.popen_uci("C:/Users/user/Documents/chess_game/stockfish/stockfish-windows-x86-64-avx2.exe")
+        self.engine = chess.engine.SimpleEngine.popen_uci("Chess-Python-main/stockfish/stockfish-windows-x86-64-avx2.exe")
         self.difficulty = "random_novice"  # Default difficulty
         
         # Pygame setup
