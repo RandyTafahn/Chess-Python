@@ -1,5 +1,5 @@
 #this code require some libraries such as python-chess, and pygame
-#the libraries are included in venv in this case
+#please read the README.md file first before using this program to get the guide
 
 import chess
 import chess.engine
